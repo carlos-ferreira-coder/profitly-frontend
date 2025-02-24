@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios'
 
-export const serverURL = 'http://localhost:3000'
+export const serverURL = 'https://profitly-backend.onrender.com'
 
 export const api = axios.create({
   baseURL: serverURL,
